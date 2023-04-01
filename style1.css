@@ -1,0 +1,44 @@
+@media (max-width: 500px) {
+    #Nav-bar {
+        height: 100px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        display: block;
+    }
+    
+    .left-navbar .logo {
+        position: absolute;
+        top: 4%;
+        left: 50%;
+        transform: translate(-50%, -3%);
+    }
+
+    .right-navbar {
+        width: 100%;
+        position: absolute;
+        top: 8%;
+        margin-left: 10px;
+    }
+
+    .right-navbar nav .nav-ul .nav-iteam {
+        display: inline;
+        padding: 0px 5px 0px 5px;
+    }
+    
+    .nav-iteam a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 17px;
+        letter-spacing: 1px;
+        color: black;
+        box-shadow: inset 0 0 0 0 #54a2d6;
+        transition: color 1s ease-in-out, box-shadow .1s ease-in-out;
+
+    }
+    
+    .nav-iteam a:hover {
+        box-shadow: inset 100px 0 0 0 #43d7b7;
+        color: white;
+    }
+}
